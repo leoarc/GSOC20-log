@@ -16,3 +16,11 @@ This week I worked mostly replicatinf the ``` roi ``` feature for the segment ap
 With this week an initial implementation of ```roi ``` is completed in the model and segment apps. These will serve as a base to work on them further and improve them.
 
 ##### PR : ![#410](https://github.com/camicroscope/caMicroscope/pull/410)
+
+
+## Week 3 :
+
+This week I worked on expanding the Roi feature so that now users can select a portion of the slide to extract patches instead of the whole slides . This comes in handy when the slide is very large and the user doesn't require patches from the whole slide . This feature is still not fully polished . Also I haven't done much testing so I'll probably come back to this to clean it up . Also as my last PR is still open I added this to it and didn't make a new PR.
+
+##### PR :  ![#410](https://github.com/camicroscope/caMicroscope/pull/410)
+
