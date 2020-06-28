@@ -24,3 +24,8 @@ This week I worked on expanding the Roi feature so that now users can select a p
 
 ##### PR :  ![#410](https://github.com/camicroscope/caMicroscope/pull/410)
 
+
+### Week 4 :
+
+This week I worked in shifting the extraction process in the model app to the slideloader app. Now there is an option to either do everything completely in the browser or use the slideloader app for the extraction . This solves the issue of tabs crashing and is also much more faster and efficient then using JSZip and creating zip files in the browser. Now , on completing the predictions using  ``` tfjs  ``` in the client side, the results are sent to the slideloader app in  ``` json ``` format . This is used to extract the patces using PIL . The patches are then sent back and downloaded.  This addition makes the ``` roi ``` feature useabe for even large sides!
+
