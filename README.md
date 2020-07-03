@@ -29,3 +29,12 @@ This week I worked on expanding the Roi feature so that now users can select a p
 
 This week I worked in shifting the extraction process in the model app to the slideloader app. Now there is an option to either do everything completely in the browser or use the slideloader app for the extraction . This solves the issue of tabs crashing and is also much more faster and efficient then using JSZip and creating zip files in the browser. Now , on completing the predictions using  ``` tfjs  ``` in the client side, the results are sent to the slideloader app in  ``` json ``` format . This is used to extract the patces using PIL . The patches are then sent back and downloaded.  This addition makes the ``` roi ``` feature useabe for even large sides!
 
+##### PR : ![#417](https://github.com/camicroscope/caMicroscope/pull/417) , ![#34](https://github.com/camicroscope/SlideLoader/pull/34)
+
+
+### Week 5 :
+
+This week was a buffer week. Since I had some unmerged PRs , so this week I worked on incorporating review comments and trying to merge them . I made small changes such as the download directory structure and added some comments and cleaned my code a bit. Also I changed the way patches are selected. Earlier the choices given by the user were validated on only the top predicted class of the patch . But that meant that even if some other class passes the user criteria it will not be selected . So now , the choices are validated against all the classes instead of just the top class. 
+
+Also this was the Phase I review week . So this is a screencast showing the work done in Phase I ![Link](https://drive.google.com/file/d/1evU0FrRCvvry1_jFQUDZA4Lhw9bX1m6s/view?usp=sharing)
+
