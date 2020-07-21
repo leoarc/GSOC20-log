@@ -38,3 +38,10 @@ This week was a buffer week. Since I had some unmerged PRs , so this week I work
 
 Also this was the Phase I review week . So this is a screencast showing the work done in Phase I ![Link](https://drive.google.com/file/d/1evU0FrRCvvry1_jFQUDZA4Lhw9bX1m6s/view?usp=sharing)
 
+### Week 6 and 7 :
+
+I got delayed in my work because of an incident that happened to my laptop . Now I know why it is suggested to not use local machine to train ML models ( though I had a NVIDIA 1050 and in the paper it was written that the authors used 1060 Ti) . Anyways that made Week 6 mostly useless but since I had already implemented one model back in April and I had suggested implementing two models in this period , so I just had to complete one more. So I started working on this segmentation model YNet . I ran into some problems with downloading the dataset . But after implementing the model and training , it took me two days to convert it into the tfjs model due to multiple errors in the version compatability of keras , tf and tfjs. I completed the model and have made the PR . Next week will be mostly spent on polishing the model and roi feautures and probably start thinking of integrating the roi branch into the develop branch.
+
+##### PR : ![#3](https://github.com/camicroscope/tfjs-models/pull/3) 
+
+
