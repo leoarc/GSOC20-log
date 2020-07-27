@@ -48,7 +48,10 @@ I got delayed in my work because of an incident that happened to my laptop . Now
 ### Week 8 :
 
 This week I made some small changes to roi like adding esc key to get out of roi mode. Other than that I updated the readme of the model and segment apps.Most of the week was spent on trying things out for phase 3. I went through the suggestions I made for phase 3 and found many dead ends. I think I would require discussion on what I should do next.  The thing with Digital Pathlogy is that the datasets are huge which makes training anything even a little complex very power consuming.
+
 One of the ideas I mentioned was training a GAN to generate fake images but that seems hard due to the complexity of the network and the size of the dataset.Also using fake images to train models is not a good idea. It took me a very long time ( and several problems) to even train a simple model like YNet on a relatively small dataset. Also using fake images to train models is not a good idea. Also for generating fake image of a particular type, the model has to be trained everytime with relevant slides of that type.
+
 The other idea of normalizing slides also doesn't make much sense now that I went through the paper thoroughly. Also, caMicroscope already does numerical normalization before its ML tasks, so it is mostly redundant .
 
 
+##### PR : ![#427](https://github.com/camicroscope/caMicroscope/pull/427) 
